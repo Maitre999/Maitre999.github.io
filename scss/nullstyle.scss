@@ -24,6 +24,10 @@ h1 {
   font-size: 2em;
 }
 
+ul {
+  list-style: none;
+}
+
 hr {
   box-sizing: content-box;
   height: 0;
@@ -38,6 +42,11 @@ pre {
 a {
   background-color: transparent;
   text-decoration: none;
+  color: #000;
+}
+
+a:visited {
+  color: inherit;
 }
 
 abbr[title] {
@@ -90,6 +99,7 @@ textarea {
   font-family: inherit;
   font-size: 100%;
   line-height: 1.15;
+  color: inherit;
 }
 
 button,
@@ -140,20 +150,6 @@ progress {
 
 textarea {
   overflow: auto;
-}
-
-[type="number"]::-webkit-inner-spin-button,
-[type="number"]::-webkit-outer-spin-button {
-  height: auto;
-}
-
-[type="search"] {
-  -webkit-appearance: textfield;
-  outline-offset: -2px;
-}
-
-[type="search"]::-webkit-search-decoration {
-  -webkit-appearance: none;
 }
 
 [type="search"]::-webkit-search-decoration,
